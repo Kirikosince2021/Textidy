@@ -1,0 +1,82 @@
+.input {
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  margin: 20px auto;
+  border-radius: 5px;
+  width: 75%;
+  box-shadow: 0px 0px 10px 0px #ddd;
+  min-width: 900px;
+  padding: 10px;
+  text-align: center;
+
+  label {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+  .in {
+    margin: 0 auto;
+  }
+
+  textarea {
+    resize: none;
+    overflow: scroll;
+    box-sizing: border-box;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(112, 100, 116);
+    border-radius: 5px;
+    padding: 10px;
+    letter-spacing: 0.05em;
+    color: white;
+    font-size: 14px;
+  }
+
+  .out {
+    display: block;
+    overflow: scroll;
+    box-sizing: border-box;
+    width: 800px;
+    font-size: 14px;
+    height: 200px;
+    background-color: rgb(60, 51, 63);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    letter-spacing: 0.05em;
+    color: white;
+
+    &__container {
+      text-align: left;
+    }
+
+    span {
+      text-align: left;
+    }
+  }
+
+  .arrow {
+    color: rgb(185, 177, 177);
+    font-size: 20px;
+  }
+
+  button {
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: pink;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    margin: 30px auto 10px;
+  }
+
+  .smallNotice {
+    font-size: 12px;
+    color: rgb(235, 46, 46);
+    display: block;
+  }
+}

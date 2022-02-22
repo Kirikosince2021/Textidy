@@ -1,0 +1,15 @@
+.header {
+  background-color: pink;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+
+  .siteName {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  small {
+    font-size: 10px;
+  }
+}
